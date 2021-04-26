@@ -1,0 +1,24 @@
+.list {
+  padding: 0 400px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.text {
+  font-weight: 700;
+  color: #222222;
+}
+
+.button {
+  background-color: #222222;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+}
